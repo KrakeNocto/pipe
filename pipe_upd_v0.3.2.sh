@@ -8,4 +8,4 @@ chmod +x pop
 
 rm -f logs/*
 
-systemctl start popcache && systemctl status popcache
+systemctl start popcache && systemctl status popcache && ./pop -v
