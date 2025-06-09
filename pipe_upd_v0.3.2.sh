@@ -14,7 +14,7 @@ offset=$(( (0x${hash:0:8} % 901) + 300 ))
 random_am=$(shuf -i $min_am-$max_am -n 1)
 total_sleep=$((random_am + offset))
 
-echo "Installing Storage after $total_sleep seconds"
+echo "Pipe update after $total_sleep seconds"
 
 sleep $total_sleep
 
